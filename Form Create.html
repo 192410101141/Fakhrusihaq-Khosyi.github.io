@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>titipdulu.mlg-Login</title>
-    <link rel="stylesheet" href="assets/css/Form Login.css">
+    <title>titipdulu.mlg-Create Account</title>
+    <link rel="stylesheet" href="assets/css/Form Create.css">
 </head>
 <body>
     <img src="assets/img/Logo Akun.png" alt="">
-    <img src="assets/img/Logo Search.png" alt="">
+    <img src="assets/img/Logo Search.png" alt=""> 
     <div class="logo">
         <img src="assets/img/Logo Titip.png" alt="">
     </div>
-    <h2>CUSTOMER LOGIN</h2>
+    <h2>CREATE ACCOUNT</h2>
     <div>
         <div class="masuk">
             <table>
+                <tr>
+                    <td><label id="fullkname" for="fullkname">Fullname</label></td>
+                    <td><input type="text" placeholder="Fullname"></td>
+                </tr>
+                <tr>
+                    <td><label id="nickname" for="nickname">Nickname</label></td>
+                    <td><input type="text" placeholder="Nickname"></td>
+                </tr>
                 <tr>
                     <td><label id="email" for="email">Email</label></td>
                     <td><input type="text" placeholder="Email"></td>
@@ -25,8 +33,15 @@
                     <td><input type="password" placeholder="Password"></td>
                 </tr>
                 <tr>
-                    <td><a href="index.html"><input class="tombol" type="submit" name="masuk" value="LOGIN"></a></td>
-                    <td><a href="Form Create.html"><input class="klik" type="submit" name="buat" value="CREATE ACCOUNT"></a></td>
+                    <td><label id="confirm" for="confirm">Confirm Password</label></td>
+                    <td><input type="confirm" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td><label id="phone" for="phone">Phone Number</label></td>
+                    <td><input type="text" placeholder="Phone Number"></td>
+                </tr>
+                <tr>
+                    <td><a href="Form Login.html"><input class="klik" type="submit" name="buat" value="CREATE ACCOUNT"></a></td>
                 </tr>
             </table>
             <div class="Reset">
